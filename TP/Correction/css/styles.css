@@ -1,0 +1,111 @@
+/* General styles */
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+.bold-text{
+    font-weight: bold;
+}
+
+/* Header styles and Footer styles*/
+.header, .footer{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo{
+    width: auto;
+    height: 60px;
+}
+
+header .nav ul, footer .nav ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header .nav ul li, .footer .nav ul li{
+    margin-right: 20px;
+}
+
+header .nav ul li a, .footer .nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+header .nav ul li a:hover, .footer .nav ul li a:hover{
+    text-decoration: underline;
+}
+
+/* Sections styles */
+.section{
+    padding: 20px;
+}
+
+.section-title{
+    margin-bottom: 20px;
+}
+
+
+/* Vehicle presentation styles */
+.vehicles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.vehicle{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    border: #333 solid 2px;
+    max-width: 600px;
+}
+
+.vehicle p{
+    width: 100%;
+    padding: 20px;
+}
+
+.vehicle-image{
+    width: 100%;
+}
+
+/*Contact styles*/
+#contact>div{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#contact iframe{
+    width: 100%;
+    min-height: 450px;
+}
+
+.title-opening-time{
+    text-align: center;
+}
+
+.list-opening-time{
+    padding-left: 0;
+}
+
+.list-opening-time li{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#contact .hours{
+    padding-left: 20px;
+}
